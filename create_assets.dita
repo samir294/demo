@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="create_assets">
+    <title>Create assets</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>Create hardware, software, consumable, bundle, pallet, mobile, and facility assets
+                using the Core UI or the Hardware Asset Workspace.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create an asset.</cmd>
+            </step>
+            <stepsection>
+                <table frame="all" rowsep="1" colsep="1" id="table_bvb_zj1_jdc">
+                    <title/>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p>Interface</p>
+                                </entry>
+                                <entry>
+                                    <p>Action</p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>
+                                    <p>Core UI</p>
+                                </entry>
+                                <entry>
+                                    <p>a.Navigate to All > Asset > Portfolios > All Assets.</p>
+                                    <p>b. Select the type of asset that you want to create.</p>
+                                    <p>c. Select New.</p>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>
+                                    <p>Hardware Asset Workspace</p>
+                                </entry>
+                                <entry>
+                                    <p>a. Navigate to All > Hardware Asset Workspace > Asset
+                                        estate.</p>
+                                    <p/>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry/>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </stepsection>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="hardware_asset_management_licensing">
+    <title>Hardware Asset Management licensing</title>
+    <shortdesc>Hardware Asset Management (HAM) licensing enables you to choose the Hardware Asset
+        Management resource categories that you want to use. You can save money by paying only for
+        those categories that you use, and not for categories that you don't use.</shortdesc>
+    <conbody>
+        <p>Only the resource categories that are opted in are counted toward the Subscription
+            Units.</p>
+        <note id="note_py4_ch1_jdc">
+            <p>By default for a particular resource category, the normalization functions for its
+                associated models and the asset actions for its associated assets don't work. If you
+                want to use the normalization functions and asset actions, you have to opt in that
+                resource category.</p>
+        </note>
+        <p>For more information about opting in or out of the HAM license resource categories, see
+                <xref
+                href="http://Opt-in%20or%20opt-out%20of%20HAM%20license%20resource%20categories."
+                format="html" scope="external"/>.</p>
+        <p>Based on the usage of model categories, the ServiceNow HAM license is divided into
+            resource categories. There are different types of resource categories. Different assets
+            fall under different categories as well. Make sure you opt in the correct and required
+            categories. An asset represented in the Asset [alm_asset] table and which meets the
+            criteria for each managed IT resource type such as Server, End User Computers, Network
+            Gear, and Mobile Device, is counted toward a Subscription Unit based on the predefined
+            ratio of number of assets to subscription units.</p>
+        <note id="note_klr_fh1_jdc">
+            <p>Resource categories in HAM are associated with certain entitlements. For example, the
+                Computer resource category is shown only if the computer entitlement is available in
+                the HAM license. On an on-premise ServiceNow instance, the entitlements aren’t
+                downloaded. However, you can store your HAM entitlement details by using the
+                sn_ham_active_entitlements system property. You can update this system property with
+                a comma separated list of entitlements for which you have access.</p>
+        </note>
+        <data>
+            <title><b>HAM license resource categories</b></title>
+        </data>
+        <p>The Subscription unit ratio is the ratio of the number of assets to the number of
+            subscription units. For example, the subscription unit ratio of End User Computers is
+            4:1, where 4 assets require a single unit of license. If 1 license costs $100, then 4
+            computer assets cost $100 and 8 computer assets cost $200.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_zgs_kh1_jdc">
+            <title/>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                <colspec colname="c2" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>Resource category</p>
+                        </entry>
+                        <entry>
+                            <p>Subscription unit ratio</p>
+                        </entry>
+                        <entry>
+                            <p>Model category</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p>End User Computers</p>
+                        </entry>
+                        <entry>
+                            <p>4:1</p>
+                        </entry>
+                        <entry>
+                            <p>Computer</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Mobile device</p>
+                        </entry>
+                        <entry>
+                            <p>10:1</p>
+                        </entry>
+                        <entry>
+                            <p>Mobile Device</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Monitors</p>
+                        </entry>
+                        <entry>
+                            <p>15:1</p>
+                        </entry>
+                        <entry>
+                            <p>Monitor</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Network Gear</p>
+                        </entry>
+                        <entry>
+                            <p>5:1</p>
+                        </entry>
+                        <entry>
+                            <ul id="ul_ug1_d31_jdc">
+                                <li>Network gear</li>
+                                <li>IP Switch</li>
+                                <li>IP Router</li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>Printer</p>
+                        </entry>
+                        <entry>
+                            <p>10:1</p>
+                        </entry>
+                        <entry>
+                            <p>Printer</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <note id="note_bkz_331_jdc">
+            <p>Unclassified hardware, Monitors, Storage, and Printers are available with Hardware
+                Asset Management version 10.1.0 and later only when you upgrade to HAM license
+                version 5.0.</p>
+        </note>
+        <p>To access Hardware Asset Management features for Telecommunications Network Inventory,
+            you should install the Telecommunications Network Inventory application and opt-in to
+            the Telecom Network Inventory resource category. For more information, see <xref
+                href="https://www.servicenow.com/docs/csh?topicname=integration-with-hardware-asset-management&amp;version=xanadu&amp;pubname=xanadu-telecom-network-inventory"
+                format="html" scope="external">Telecommunications Network Inventory integration with
+                Hardware Asset Management </xref>.</p>
+    </conbody>
+</concept>

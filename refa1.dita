@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="refa1">
+    <title>refa1</title>
+    <shortdesc>sdfsdfsf</shortdesc>
+    <refbody>
+        <example>
+            <ul id="ul_hmb_xm3_3dc">
+                <li>sdfsf</li>
+            </ul>
+        </example>
+    </refbody>
+</reference>

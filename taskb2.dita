@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="taskb2">
+    <title>taskb2</title>
+    <shortdesc>sdfgdgfd</shortdesc>
+    <taskbody>
+        <context>
+            <p>ggfhghf</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>gfhfghf</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

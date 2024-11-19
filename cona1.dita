@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="cona1">
+    <title>cona1</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>asdadsasf</p>
+        <image href="../nature%20image.png" id="image_uls_2d1_jdc"/>
+        <fig id="fig_t14_fd1_jdc">
+            <title>Nature</title>
+            <image href="../nature%20image.png" id="image_kfc_gd1_jdc"/>
+            <image>
+                <alt>nature</alt>
+            </image>
+        </fig>
+        <table frame="all" rowsep="1" colsep="1" id="table_irh_h21_jdc">
+            <title>asdafsadgf</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>
+                            <p>nature</p>
+                        </entry>
+                        <entry>
+                            <p>nature 2</p>
+                        </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>
+                            <p>fsgs</p>
+                        </entry>
+                        <entry>
+                            <p>dfsf</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>sfgd</p>
+                        </entry>
+                        <entry>
+                            <p>sddgsg</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>
+                            <p>gdfhgfh</p>
+                        </entry>
+                        <entry>
+                            <p>dfsgsg</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

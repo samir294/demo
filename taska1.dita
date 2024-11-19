@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="taska1">
+    <title>taska1</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p>dfsdf</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the search (<image href="search_icon.png" id="image_in2_jf1_jdc"/>)
+                    icon.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Submit</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Home</uicontrol>
+                        <uicontrol>ABC</uicontrol>
+                        <uicontrol>XYZ</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Select on the following values;</cmd>
+                <choices id="choices_ayt_4f1_jdc">
+                    <choice>table</choice>
+                    <choice/>
+                </choices>
+            </step>
+            <step conref="taska2.dita#taska2/step1">
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

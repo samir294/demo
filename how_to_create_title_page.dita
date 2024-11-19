@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_create_title_page">
+    <title>How-to-create-title-page</title>
+    <shortdesc>asasdasdsdadsads asdasdad </shortdesc>
+    <taskbody>
+        <context>
+            <p>dasdasdas dasdasdas adasdas</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>asdas dasdsadas asdas</cmd>
+                <info>
+                    <p>csdfsgadffadf</p>
+                </info>
+                <stepresult>
+                    <p>dfsfsfdsfdsfs</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>sadasdasd</cmd>
+                <substeps id="substeps_gqs_hq2_3dc">
+                    <substep>
+                        <cmd>ssdfsdfg</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>sdgdsgsgs</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>
